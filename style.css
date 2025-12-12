@@ -16,8 +16,9 @@ h1{
     color: white;
     font-size: 130px;
     text-align: center;
-    margin-top: 10%;
     text-shadow: 2px 2px 5px black;
+    margin-bottom: -20px;
+    margin-top: -1px;
 }
 
 h2{
@@ -34,6 +35,28 @@ h3{
     font-size: 35px;
     text-align: center;
     text-shadow: 1px 1px 3px black;
+}
+
+h4{
+    font-family: Frankfurter-Medium;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+}
+
+h5{
+    font-family: Frankfurter-Medium;
+    color: rgb(212, 177, 255);
+    font-size: 30px;
+    margin-top: -2px;
+    margin-bottom: -0.5px;
+    text-align: center;
+
 }
 
 
