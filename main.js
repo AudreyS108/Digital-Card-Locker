@@ -15,7 +15,7 @@ function redirect() {
         setTimeout(function() {
             document.location.href = "card1.html";
         }, 1500);
-    } if (InputCode.value === "5830") {
+    } else if (InputCode.value === "5830") {
         status.textContent = "Success! Redirecting...";
         setTimeout(function() {
             document.location.href = "card2.html";
