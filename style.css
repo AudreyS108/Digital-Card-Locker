@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(212, 177, 255);
+}
+
+@font-face {
+    font-family: Frankfurter-Highlight;
+    src: url("Assets/FrankfurterHighlight.otf");
+}
+@font-face {
+    font-family: Frankfurter-Medium;
+    src: url("Assets/OPTIFrankfurter-Medium.otf");
+}
+
+h1{
+    font-family: Frankfurter-Highlight;
+    color: white;
+    font-size: 130px;
+    text-align: center;
+    margin-top: 10%;
+    text-shadow: 2px 2px 5px black;
+}
+
+h2{
+    font-family: Frankfurter-Medium;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+}
+
+h3{
+    font-family: Frankfurter-Medium;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+}
+
+
+.label-container {
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        text-align: center;
+}

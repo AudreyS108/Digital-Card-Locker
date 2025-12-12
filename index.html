@@ -4,18 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Enter 4 Digit Code!</h1>
-    <form id = "form">
-        <label for="Code">Code:</label><br>
-        <input type="text" id="Code" name="Code"><br>
+    <h1>Digi Card Locker</h1>
+    <h2>Enter your code to view your card:</h2>
+    <form id = "Form">
+        <div class="label-container">
+             <label for="Code">Code:</label>
+        <input type="text" id="Code" name="Code">
+        <br>
+        <br>
+        <button class="submit" id ="submitButton" onclick="redirect()" type="reset">
+            Submit
+        </button>
 
+        </div>
+       
     </form>
-    <button id ="submitButton" onclick="redirect()">
-        Submit
-    </button>
+    
+    
+
+    <h3 id="status">
+    </h3>
     <script src="main.js"></script>
 </body>
 </html>
