@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: Frankfurter-Highlight;
-    src: url("../Assets/FrankfurterHighlight.woff");
+    src: url("../assets/FrankfurterHighlight.woff");
 }
 @font-face {
     font-family: Frankfurter-Medium;
-    src: url("../Assets/OPTIFrankfurter-Medium.woff");
+    src: url("../assets/OPTIFrankfurter-Medium.woff");
 }
 
 body{
