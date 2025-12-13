@@ -1,6 +1,4 @@
-body{
-    background-color: rgb(212, 177, 255);
-}
+
 
 @font-face {
     font-family: Frankfurter-Highlight;
@@ -9,6 +7,11 @@ body{
 @font-face {
     font-family: Frankfurter-Medium;
     src: url("Assets/OPTIFrankfurter-Medium.otf");
+}
+
+body{
+    background-color: rgb(212, 177, 255);
+    font-family: Frankfurter-Medium;
 }
 
 h1{

@@ -1,6 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
     const button = document.getElementById("submitButton");
     const form = document.getElementById("Form");
+    const body = document.getElementById("body");
+
+    const audio = document.getElementById("audio");
+    body.addEventListener("mouseenter", function() {
+      audio.play();
+ });
     
 });
 
