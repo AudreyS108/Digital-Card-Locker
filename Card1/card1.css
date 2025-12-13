@@ -23,7 +23,7 @@ img{
 
 body{
     background-color: #ffffff;
-    cursor: url('assets/Penguin2.png'), auto;
+    cursor: url('././assets/Penguin2.png'), auto;
 }
 
 
@@ -84,7 +84,7 @@ h1{
     background-color: rgba(255, 255, 255, 0.818);
     border: none;
     font-size: 19px;
-    cursor: url('assets/Penguin1.png'), auto;
+    cursor: url('./assets/Penguin1.png'), auto;
 }
 
 
@@ -113,7 +113,7 @@ h1{
     background-color: rgba(255, 255, 255, 0.818);
     border: none;
     font-size: 19px;
-    cursor: url('assets/Penguin1.png'), auto;
+    cursor: url('./assets/Penguin1.png'), auto;
 }
 
 /*gift*/
@@ -315,7 +315,7 @@ h1{
 
 .card:hover{
     transform: rotate(-10deg) translate(150px);
-    cursor: url('assets/Penguin2.png'), auto;
+    cursor: url('./assets/Penguin2.png'), auto;
     
     
 
@@ -323,7 +323,7 @@ h1{
 
 .card:hover .outside{
     transform: rotateY(-150deg);
-    cursor: url('assets/Penguin2.png'), auto;
+    cursor: url('./assets/Penguin2.png'), auto;
 
 }
 
@@ -763,7 +763,7 @@ p{
     transform: rotate(45deg);
     left: 65px;
     z-index: 80;
-    cursor: url('assets/Penguin1.png'), auto;
+    cursor: url('./assets/Penguin1.png'), auto;
     
 }
 
@@ -778,7 +778,7 @@ p{
     transform: rotate(45deg);
     left: 95px;
     z-index: 80;
-    cursor: url('assets/Penguin1.png'), auto;
+    cursor: url('./assets/Penguin1.png'), auto;
 }
 
 .candle3-fire{
@@ -792,7 +792,7 @@ p{
     transform: rotate(45deg);
     left: 125px;
     z-index: 80;
-    cursor: url('assets/Penguin1.png'), auto;
+    cursor: url('./assets/Penguin1.png'), auto;
 }
 
 .candle4-fire{
@@ -806,7 +806,7 @@ p{
     transform: rotate(45deg);
     left: 155px;
     z-index: 80;
-    cursor: url('assets/Penguin1.png'), auto;
+    cursor: url('./assets/Penguin1.png'), auto;
 }
 
 .candle5-fire{
@@ -820,7 +820,7 @@ p{
     bottom: 125px;
     transform: rotate(45deg);
     left: 185px;
-    cursor: url('assets/Penguin1.png'), auto;
+    cursor: url('./assets/Penguin1.png'), auto;
 }
 
 .candle6-fire{
@@ -834,7 +834,7 @@ p{
     bottom: 125px;
     transform: rotate(45deg);
     left: 214px;
-    cursor: url('assets/Penguin1.png'), auto;
+    cursor: url('./assets/Penguin1.png'), auto;
 }
 
 .candle7-fire{
@@ -848,7 +848,7 @@ p{
     bottom: 125px;
     transform: rotate(45deg);
     left: 244px;
-    cursor: url('assets/Penguin1.png'), auto;
+    cursor: url('./assets/Penguin1.png'), auto;
 }
 
 .candle8-fire{
@@ -863,7 +863,7 @@ p{
     transform: rotate(45deg);
     left:  88px;
     z-index: 80;
-    cursor: url('assets/Penguin1.png'), auto;
+    cursor: url('./assets/Penguin1.png'), auto;
 }
 
 .candle9-fire{
@@ -877,7 +877,7 @@ p{
     transform: rotate(45deg);
     left: 121px;
     z-index: 80;
-    cursor: url('assets/Penguin1.png'), auto;
+    cursor: url('./assets/Penguin1.png'), auto;
 }
 
 .candle10-fire{
@@ -891,7 +891,7 @@ p{
     transform: rotate(45deg);
     left: 155px;
     z-index: 80;
-    cursor: url('assets/Penguin1.png'), auto;
+    cursor: url('./assets/Penguin1.png'), auto;
 }
 
 .candle11-fire{
@@ -905,7 +905,7 @@ p{
     transform: rotate(45deg);
     left: 188px;
     z-index: 80;
-    cursor: url('assets/Penguin1.png'), auto;
+    cursor: url('./assets/Penguin1.png'), auto;
 }
 
 .candle12-fire{
@@ -919,7 +919,7 @@ p{
     transform: rotate(45deg);
     left:221px;
     z-index: 80;
-    cursor: url('assets/Penguin1.png'), auto;
+    cursor: url('./assets/Penguin1.png'), auto;
 }
 
 .candle13-fire{
@@ -944,7 +944,7 @@ p{
     bottom: 247px;
     transform: rotate(45deg);
     left: 155px;
-    cursor: url('assets/Penguin1.png'), auto;
+    cursor: url('./assets/Penguin1.png'), auto;
 }
 
 .candle15-fire{
@@ -958,7 +958,7 @@ p{
     transform: rotate(45deg);
     left: 195px;
     z-index: 90;
-    cursor: url('assets/Penguin1.png'), auto;
+    cursor: url('./assets/Penguin1.png'), auto;
 }
 
 
