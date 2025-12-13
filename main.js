@@ -21,11 +21,13 @@ function redirect() {
         setTimeout(function() {
             document.location.href = "card1.html";
         }, 1500);
+        status.textContent = "";
     } else if (InputCode.value === "5830") {
         status.textContent = "Success! Redirecting...";
         setTimeout(function() {
             document.location.href = "card2.html";
         }, 1500);
+        status.textContent = "";
     } else {
         status.textContent = "Invalid code, please try again.";
     }
