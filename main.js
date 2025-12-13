@@ -27,14 +27,14 @@ function redirect() {
     else if (InputCode.value === "2561") {
         status.textContent = "Success! Redirecting...";
         setTimeout(function() {
-            document.location.href = "./card1/card1.html";
+            document.location.href = "./card-1/card1.html";
             status.textContent = "";
         }, 1500);
         
     } else if (InputCode.value === "5830") {
         status.textContent = "Success! Redirecting...";
         setTimeout(function() {
-            document.location.href = "./card2/card2.html";
+            document.location.href = "./card-2/card2.html";
             status.textContent = "";
         }, 1500);
         
