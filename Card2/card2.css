@@ -119,15 +119,12 @@ h1{
 
 .card:hover{
     transform: rotate(-10deg) translate(150px);
-    cursor: url('assets/Penguin2.png'), auto;
     
     
-
 }
 
 .card:hover .outside{
     transform: rotateY(-150deg);
-    cursor: url('assets/Penguin2.png'), auto;
 
 }
 
