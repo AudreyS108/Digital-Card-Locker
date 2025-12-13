@@ -1,7 +1,7 @@
 # Digital Card Locker
 This project is a continuation of my CSS-Birthday-Card project.   
-This is a website which requires you to input a specific code to receive a card, whether it be for a birthday, Christmas, or other celebration.   
-Users would be given a link to the website, and a code to input along with it, thus the name Digital Card Locker.   
+This is a website which stores the digital cards I have made for my friends and family, whether it be for a birthday, Christmas, or other celebration.     
+Users would be given a link to the website, and a code to input along with it, thus the name Digital Card Locker.
 __________________________________________________________
 Features
 -
