@@ -3,6 +3,6 @@ document.addEventListener("DOMContentLoaded", function() {
   const audio = document.getElementById("audio");
 
   card.addEventListener("mouseenter", function() {
-      audio.play();
+    audio.play()
   })
 });
