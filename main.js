@@ -16,18 +16,28 @@ function redirect() {
     const status = document.getElementById("status");
     var InputCode = document.getElementById("Code")
     console.log(InputCode.value)
-    if (InputCode.value === "2561") {
+    if (InputCode.value === "1234") {
         status.textContent = "Success! Redirecting...";
         setTimeout(function() {
-            document.location.href = "card1.html";
+            document.location.href = "CardExample/cardExample.html";
+            status.textContent = "";
         }, 1500);
-        status.textContent = "";
+        
+    } 
+    else if (InputCode.value === "2561") {
+        status.textContent = "Success! Redirecting...";
+        setTimeout(function() {
+            document.location.href = "Card1/card1.html";
+            status.textContent = "";
+        }, 1500);
+        
     } else if (InputCode.value === "5830") {
         status.textContent = "Success! Redirecting...";
         setTimeout(function() {
-            document.location.href = "card2.html";
+            document.location.href = "Card2/card2.html";
+            status.textContent = "";
         }, 1500);
-        status.textContent = "";
+        
     } else {
         status.textContent = "Invalid code, please try again.";
     }
