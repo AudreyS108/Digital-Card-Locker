@@ -1,0 +1,235 @@
+html {
+    overflow: hidden;
+}
+
+.title {
+    height: 6rem;
+    width: 40%;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    background-color: rgb(116, 210, 249);
+    border: none;
+    z-index: 400;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    z-index: 100;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    padding: 25px;
+    color: black;
+}
+
+.bg {
+    width: 100%;
+    height: auto;
+    z-index: 0;
+
+}
+
+
+img {
+    height: 320px;
+    width: 320px;
+    position: absolute;
+}
+
+.frontimg {
+    height: auto;
+    margin-top: -10%;
+    scale: 0.98;
+    display: flex;
+    justify-content: center;
+}
+
+.gif {
+    padding-bottom: 5%;
+    margin-top: 14%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+body {
+    background-color: #78a6ff;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+
+
+/*fonts*/
+.outfitfonttitle {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    line-height: 1;
+    padding: 50px;
+    /*ADD STROKE?*/
+}
+
+.outfitfontnorm {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*card*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outside p {
+    font-size: 42px;
+    padding: 2%;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+
+
+
+.card {
+    width: 640px;
+    height: 400px;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 70%;
+    margin-top: 8%;
+    -webkit-perspective: 1200px;
+    perspective: 1200px;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.card:hover {
+    transform: rotate(-10deg) translate(150px);
+    cursor: url('assets/Penguin2.png'), auto;
+
+}
+
+.card:hover .outside {
+    transform: rotateY(-150deg);
+    cursor: url('assets/Penguin2.png'), auto;
+
+}
+
+.noanim {
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+}
+
+
+.card.noanim,
+.card.noanim:hover,
+.card.noanim:hover .outside,
+.outside.noanim,
+.outside.noanim:hover {
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+}
+
+
+
+p.outfitfontnorm {
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 16px;
+    font-weight: 250;
+    text-align: left;
+}
+
+h2 {
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300px;
+    text-align: center;
+}
+
+.outside,
+.inside {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 50.1%;
+    border: rgb(116, 210, 249) solid 2px;
+}
+
+.inside {
+    left: 50%;
+    padding: 7%;
+    background: linear-gradient(to right, rgb(219, 233, 245), #ffffff);
+}
+
+.outside {
+    -webkit-transform-style: preserve-3d;
+    z-index: 100;
+    transform-origin: left;
+    transition: 2s;
+}
+
+.front,
+.back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+}
+
+.front {
+    background-color: rgb(213, 227, 239);
+    display: flex;
+    padding-top: 10%;
+}
+
+.back {
+    transform: rotateY(180deg);
+    background-color: rgb(213, 227, 239);
+    align-items: center;
+}
+
+/*bottom layer*/
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.addzindex {
+    z-index: 500 !important;
+}
+
+.addzindex2 {
+    z-index: 900 !important;
+}
