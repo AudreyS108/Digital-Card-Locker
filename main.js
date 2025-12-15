@@ -43,7 +43,7 @@ function redirect() {
             status.textContent = "";
         }, 1500);
         
-    } else if (InputCode.value === "0502") {
+    } else if (InputCode.value === "1259") {
         status.textContent = "Success! Redirecting...";
         setTimeout(function(){
             document.location.href = "./card-3/index.html";
