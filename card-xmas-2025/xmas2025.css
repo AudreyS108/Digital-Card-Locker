@@ -26,8 +26,8 @@
 
 
 img{
-    height: 320px;
-    width: 320px;
+    width: 100%;
+    height: auto;
     
     position: absolute;
     
@@ -99,13 +99,13 @@ h1{
 
 
 .card{
-    width: 640px;
-    height: 400px;
+    width: 1000px;
+    height: 358px;
     position: relative;
-    
-    margin-left: 18%;
-    margin-right: 82%;
+
     margin-top: 8%;
+    left: auto;
+    right: auto;
     -webkit-perspective: 1200px;
     perspective: 1200px;
     transition: 1s;
@@ -118,7 +118,7 @@ h1{
 
 
 .card:hover{
-    transform: rotate(-10deg) translate(150px);
+    transform: rotate(-10deg) translate(300px);
     
     
 }
@@ -151,7 +151,7 @@ p{
     padding-top: 25px;
     padding-left: 15px;
     padding-right: 15px;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 250;
   
 }
